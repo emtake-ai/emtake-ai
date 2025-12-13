@@ -90,4 +90,22 @@ Eagleboard enables a wide range of GPU-free edge AI applications:
 
 
 #### Video Solution
-#### Audio solution
+It use the MIPI, DVP, UVC through USB for Video application
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/videosolution.png" width="100%">
+</p>
+
+
+#### Audio solution 1
+It use the the analog MIC and digital MIC as MIC meanwhile it use the speaker with I2S Amplifier in Audio Application
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/audiosolution_1.png" width="100%">
+</p>
+
+
+#### Audio solution 2
+It use the USB as MIC and Speaker for Audio Application
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/audiosolution_2.png" width="100%">
+</p>
