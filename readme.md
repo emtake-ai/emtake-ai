@@ -123,7 +123,7 @@ It use the USB as MIC and Speaker for Audio Application
 2.1. install labelImg from Github
 
 ##### 2-1. Classification
-[build the model for classification](https://github.com/emtake-ai/deep-learning/blob/main/readme.md)
+[build the model for classification](https://github.com/emtake-ai/deep-learning)
 
 ##### 2-2. Object Detection
 [install yolov7 from Github](https://youtu.be/vVipUHJVF5o)
