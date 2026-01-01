@@ -113,11 +113,11 @@ It use the USB as MIC and Speaker for Audio Application
 ### should following below sequence.
 
 #### 1. You prepare the ubuntu 22.04 and python more than 3.10.x with NVidia GPU which is for training.
-1.1. install nvidia driver from NVidia
-1.2. install cuda from NVidia with source
-1.3. install cuDNN from NVidia with source
-1.4. install gstreamer, opencv, ffmpeg, V4L2, and ALSA
-1.5. install git, docker
+1.1. install nvidia driver from NVidia  
+1.2. install cuda from NVidia with source  
+1.3. install cuDNN from NVidia with source  
+1.4. install gstreamer, opencv, ffmpeg, V4L2, and ALSA  
+1.5. install git, docker  
 
 #### 2. training in PC which has NVidia GPU.
 2.1. install labelImg from Github
@@ -140,4 +140,4 @@ It use the USB as MIC and Speaker for Audio Application
 ##### 4-1. prepare the camera
 ##### 4-2. launch the deep learning with EagleBoard
 
-[check this](install.md)
+[check this for installation](install.md)
