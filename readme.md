@@ -32,7 +32,7 @@ or Python environment
 Eagleboard is an **AI SoC module with an integrated NPU**, designed to support  
 **real-time video and audio AI solutions** on Linux-based edge systems.
 
-#### 🔌 Peripheral & Communication Interfaces
+#### Peripheral & Communication Interfaces
 
 Eagleboard provides a rich set of standard peripheral interfaces for seamless
 integration with external devices and sensors.
@@ -43,7 +43,7 @@ integration with external devices and sensors.
 - **USB** – Camera, audio, storage, and general peripherals  
 - **Ethernet** – Network connectivity for streaming and remote control  
 
-#### 🎥 Video Input Capabilities
+#### Video Input Capabilities
 
 Eagleboard supports multiple video input paths, enabling flexible camera configurations:
 
@@ -54,7 +54,7 @@ Eagleboard supports multiple video input paths, enabling flexible camera configu
 All video inputs are accessible through **Linux V4L2 (Video4Linux2)**,  
 allowing standard camera frameworks and pipelines to be used without modification.
 
-#### 🎤 Audio Input & Output Capabilities
+#### Audio Input & Output Capabilities
 
 Eagleboard supports multiple audio interfaces for both **capture and playback**:
 
@@ -65,7 +65,7 @@ Eagleboard supports multiple audio interfaces for both **capture and playback**:
 All audio devices are exposed through **Linux ALSA**, ensuring compatibility with
 standard Linux audio frameworks and tools.
 
-#### 🐧 Linux-Friendly Multimedia Stack
+#### Linux-Friendly Multimedia Stack
 
 Eagleboard runs on **Linux**, providing native access to multimedia devices:
 
@@ -75,7 +75,7 @@ Eagleboard runs on **Linux**, providing native access to multimedia devices:
 This allows seamless integration with widely used frameworks such as
 **OpenCV**, **GStreamer**, and **FFmpeg**.
 
-#### 🚀 Application Enablement
+#### Application Enablement
 
 By combining rich I/O, multimedia interfaces, and an integrated NPU,
 Eagleboard enables a wide range of GPU-free edge AI applications:
@@ -109,3 +109,33 @@ It use the USB as MIC and Speaker for Audio Application
 <p align="center">
   <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/audiosolution_2.png" width="100%">
 </p>
+
+### should following below sequence.
+
+#### 1. You prepare the ubuntu 22.04 and python more than 3.10.x with NVidia GPU which is for training.
+1.1. install nvidia driver from NVidia
+1.2. install cuda from NVidia with source
+1.3. install cuDNN from NVidia with source
+1.4. install gstreamer, opencv, ffmpeg, V4L2, and ALSA
+1.5. install git, docker
+
+#### 2. training in PC which has NVidia GPU.
+2.1. install labelImg from Github
+
+##### 2-1. Classification
+[build the model for classification using keras](deep-learning/readme.md)
+
+##### 2-2. Object Detection
+[install yolov7 from Github](https://youtu.be/vVipUHJVF5o)
+
+#### 3. converting the training's weight to NPU's weight for EagleBoard
+[how to build keras, and how to convert it with lne](https://www.youtube.com/watch?v=BDnK0pujDvg)
+
+##### 3-1. install the synabro in PC using docker
+##### 3-2. run the synabro, and convert training's weight to NPU's weight
+[how to install synabro with docker](https://www.youtube.com/watch?v=fNOcj9eNf_M)
+
+#### 4. deployment using NPU in EagleBoard
+
+##### 4-1. prepare the camera
+##### 4-2. launch the deep learning with EagleBoard
