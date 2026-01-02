@@ -110,7 +110,7 @@ It use the USB as MIC and Speaker for Audio Application
   <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/audiosolution_2.png" width="100%">
 </p>
 
-### should following below sequence.
+### should follow below sequence.
 
 #### 1. You prepare the ubuntu 22.04 and python more than 3.10.x with NVidia GPU which is for training.
 1.1. install nvidia driver from NVidia  
@@ -139,5 +139,7 @@ build the model for classification : check repository deep-learning in emtake-ai
 
 ##### 4-1. prepare the camera
 ##### 4-2. launch the deep learning with EagleBoard
+
+[one clikc away from learning for deep learning](oneclickaway.md)
 
 [check this for installation](install.md)
