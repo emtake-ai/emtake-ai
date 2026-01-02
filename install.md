@@ -48,3 +48,8 @@ pip install pyqt5 lxml
 python labelImg.py  
 
 
+[how to use V4L2 Device with gstreamer](install_2.md)
+[how to use ALSA Device with gstreamer](install_1.md)
+
+
+
