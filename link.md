@@ -7,13 +7,13 @@
 git clone https://github.com/emtake-ai/eagleboard-video.git
 cd eagleboard-video
 ```
-[download eagleboard-video repo using git clone](https://www.youtube.com/watch?v=ympIrndBtxo)   
+[1. download eagleboard-video repo using git clone : youtube](https://www.youtube.com/watch?v=ympIrndBtxo)   
 
 ### 2. Download Dataset from HuggingFace
 
 ##### Download your classification dataset zip file after checking below link
 
-[download dataset zip file from huggingface ](https://www.youtube.com/watch?v=nj-GDC2Z_Ac)  
+[2. download dataset zip file from huggingface : youtube ](https://www.youtube.com/watch?v=nj-GDC2Z_Ac)  
 
 ### 3. Train the Classification Model (PC)
 
@@ -23,7 +23,7 @@ cd eagleboard-video
 python3 train_classification_mobilenet.py
 ```
 
-[train the model for classification](https://www.youtube.com/watch?v=oubfgcZ3uSU)  
+[3. train the model for classification : youtube](https://www.youtube.com/watch?v=oubfgcZ3uSU)  
 
 
 ### 4. Predict Result on PC
@@ -34,7 +34,7 @@ python3 train_classification_mobilenet.py
 python3 ./predict_classication.py
 ```
 
-[predict the result of training in PC](https://www.youtube.com/watch?v=lAREw5jWyGc)  
+[4. predict the result of training in PC : youtube](https://www.youtube.com/watch?v=lAREw5jWyGc)  
 
 
 ## Build and deply in Eagleboard
@@ -65,7 +65,7 @@ cp ./model-sample/models/Keras/alexnet.py .
 python3 ./alexnet.py
 ```
 
-[eagleboard : build the model and train the model](https://www.youtube.com/watch?v=qabNeS_zZoM)  
+[1. eagleboard : build the model and train the model : youtube](https://www.youtube.com/watch?v=qabNeS_zZoM)  
 
 ### 2. how to train and convert it to the LNE file
 
@@ -85,5 +85,5 @@ cp ./alexnet.keras /root/.local/synabro/data/modelzoo/keras/
 synabro --net keras/alexnet
 ```
 
-[eagleboard : how to train and convert it to the LNE file](https://www.youtube.com/watch?v=e6KDznN6WK8)   
+[2. eagleboard : how to train and convert it to the LNE file : youtube](https://www.youtube.com/watch?v=e6KDznN6WK8)   
 
