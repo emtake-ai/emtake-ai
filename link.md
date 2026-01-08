@@ -36,7 +36,8 @@ python3 ./predict_classication.py
 
 [4. predict the result of training in PC : youtube](https://www.youtube.com/watch?v=lAREw5jWyGc)  
 
-
+    
+      
 ## Build and deply in Eagleboard
 
 ### 1. Build & Train Model for EagleBoard
