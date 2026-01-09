@@ -71,7 +71,7 @@ python3 ./alexnet.py
 ### 2. how to train and convert it to the LNE file
 
 ```text
-sudo docker run -it -v .:synabro -v /home/user/Work/data_synabro:/root/.local/synabro/data synabro:1.3.0 /bin/bash
+sudo docker run -it -v .:synabro -v /home/user/Work/data_for_synabro:/root/.local/synabro/data synabro:1.3.0 /bin/bash
 ```
 
 ```text

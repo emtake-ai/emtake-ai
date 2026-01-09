@@ -22,19 +22,19 @@ unzip dataset.zip
 ```
 #### 1.3 train the model with downloaded files
 ```text
-cp ./model-sample/models/Keras/alexnet.py .
+cp ./model-sample/models/Keras/mobilenet.py .
 ```
 #### 1.4 using docker, you should train
 ```text
 sudo docker run -it --gpus all --rm -v .:/synabro -v directory_for_synabro_data:/root/.local/synabro/data
 ```  
 ```text
-python3 alexnet.py
+python3 mobilenet.py
 ```
-##### after training is completed, you can get file as "alexnet.keras"
-#### 1.5 you should copy alexnet.keras to /root/.local/synabro/data/modelzoo/keras
+##### after training is completed, you can get file as "mobilenet.keras"
+#### 1.5 you should copy mobilenet.keras to /root/.local/synabro/data/modelzoo/keras
 ```text
-cp ./alexnet.keras /root/.local/synabro/data/modelzoo/keras
+cp ./mobilenet.keras /root/.local/synabro/data/modelzoo/keras
 ```
 ##### you should run below command with file modification  
 ```text
@@ -42,33 +42,40 @@ vi /root/.local/synabro/share/models.json
 ```
 ##### you should put below into the below into the models.json
 ```text
-,"keras/alexnet": {
-"name": "alexnet"
+,"keras/mobilenet": {
+"name": "mobilenet"
 ,"framework": "keras"
-,"path": "keras/alexnet"
+,"path": "keras/mobilenet"
 }
 ```
 ##### after above, you should run below command
 ```text
-synabro --net keras/alexnet
+synabro --net keras/mobilenet
 ```
-##### after it, you can find out alexnet.lne
+##### after it, you can find out mobilenet.lne
 #### 1.6 you prepare the eagleboard to boot with login root/root
 ##### you can see the /root as a current directory
 
-#### 1.6. you should copy alexnet with sftp with below command
+#### 1.6. you should copy mobilenet with sftp with below command
 ```text
-sftp user@IP
+sftp root@192.168.1.2
+password : root
 ```
 ```text
-cd ./.../.../...
+cd ./aimf_demo
+put deply_classification.py
 ```
 ```text
-put alexnet.lne 
+cd ./LNE/Detection/
+```
+```text
+put mobilenet.lne 
 ```
 
 #### 1.7. you should run below command in eagleboard
 ```text
+cd 
+cd ./aimf_demo
 python3 ./deploy_classification.py
 ```
 
