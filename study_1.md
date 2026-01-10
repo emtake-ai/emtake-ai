@@ -61,12 +61,12 @@ synabro --net keras/mobilenet
 
 #### 1.6. you should copy mobilenet with sftp with below command
 ```text
-sftp root@192.168.1.2
+sftp root@192.168.x.x
 password : root
 ```
 ```text
 cd ./aimf_demo
-put deply_classification.py
+put deploy_classification.py
 ```
 ```text
 cd ./LNE/Detection/
