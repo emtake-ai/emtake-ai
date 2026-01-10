@@ -1,4 +1,10 @@
 ## How to study for deep learning classification in eagleboard
+
+### 0. Eagleboard unboxing  
+#### You should open the box and connect with below contents of youtube  
+[unboxing for eagleboard on how to communicate with minicom in ubuntu](https://youtu.be/hFXY7798rrM)
+[how to wire usb2ethernet with eagleboard](https://youtu.be/HwZ2ReAg7Y4)  
+
 ### 1. Classification  
 #### 1.1 download github repository called emtake-ai/eagleboard-video.git
 ```text
