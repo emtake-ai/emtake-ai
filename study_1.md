@@ -16,6 +16,9 @@ www.huggingface.co/emtake-ai
 ##### from there, you should follow below link from youtube
 [download dataset.zip file from huggingface : youtube ](https://www.youtube.com/watch?v=nj-GDC2Z_Ac)  
 ##### after downloading, you mv dataset.zip into the current working directory
+```text
+cp ~/Downloads/dataset.zip .
+```
 ##### you should unzip after above
 ```text
 unzip dataset.zip
