@@ -4,6 +4,10 @@
   <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/eagleboard-case.png" width="50%">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/eagleboard-case-explain.png" width="50%">
+</p>
+
 ### 0. Eagleboard unboxing  
 #### You should open the box and connect with below contents of youtube  
 [unboxing for eagleboard on how to communicate with minicom in ubuntu](https://youtu.be/hFXY7798rrM)
