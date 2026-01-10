@@ -1,7 +1,7 @@
 ## How to study for deep learning classification in eagleboard
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/eagleboard-case.png" width="100%">
+  <img src="https://raw.githubusercontent.com/emtake-ai/emtake-ai/main/eagleboard-case.png" width="50%">
 </p>
 
 ### 0. Eagleboard unboxing  
