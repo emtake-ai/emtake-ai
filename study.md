@@ -18,6 +18,9 @@ www.huggingface.co/emtake-ai
 ##### after downloading, you mv dataset.zip into the current working directory
 ##### you should unzip after above
 ```text
+mv ~/Downloads/dataset.zip .
+```
+```text
 unzip dataset.zip
 ```
 #### 1.3 train the model with downloaded files
@@ -29,4 +32,5 @@ python3 ./train_classification.py
 ```text
 python3 ./predict_classification.py
 ```
-
+### you can check the youtube for above
+[moving picture for aboove with youtube](https://youtu.be/MqzYvnWjcCw)  
