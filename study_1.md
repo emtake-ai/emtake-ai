@@ -82,3 +82,6 @@ cd ./aimf_demo
 python3 ./deploy_classification.py
 ```
 
+#### You can check with all with youtube 
+[check all-1](https://youtu.be/iKezqnlwjhE)  
+[check all-2](https://youtu.be/T_cGhqvI1ZA)
